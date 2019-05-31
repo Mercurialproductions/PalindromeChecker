@@ -1,0 +1,99 @@
+
+html {
+    height: 100%;
+    background-color:darkslateblue;
+    background-image: linear-gradient(to bottom right, darkslateblue, blueviolet);
+}
+
+body {
+    height: 100%;
+    
+    background-color:darkslateblue;
+    background-image: linear-gradient(to bottom right, darkslateblue, blueviolet);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#containerDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: rgba(1,1,1,0.3);
+    padding: 2em;
+    border-radius:25px;
+    box-shadow:10px 10px 5px rgba(1,1,1,0.3);
+    overflow: hidden;
+}
+
+#listDiv {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.listItemBoxYes {
+    background-color: limegreen;
+    background-image: linear-gradient(to bottom right, limegreen, green);
+    width: 33em;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    box-shadow: 10px 10px 5px rgba(1,1,1,0.3);
+    border-radius: 25px;
+}
+
+.listItemBoxNo {
+    background-color: red;
+    background-image: linear-gradient(to bottom right, red, darkred);
+    width: 33em;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    box-shadow: 10px 10px 5px rgba(1,1,1,0.3);
+    border-radius: 25px;
+}
+
+.listItem {
+    font-size: 2em;
+    font-family: "Arial Rounded MT Bold";
+    color:white;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+#input {
+    width: 10em;
+    height: 3em;
+    border-radius: 25px;
+    padding-left:1em;
+    padding-right:1em;
+    box-shadow:10px 10px 5px rgba(1,1,1,0.3);
+    font-size: 2em;
+
+}
+
+#inputDiv {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:1em;
+}
+
+#submitButton {
+    margin-left:1em;
+    height: 3em;
+    border-radius:25px;
+    box-shadow:10px 10px 5px rgba(1,1,1,0.3);
+    font-size:2em;
+
+}
+
